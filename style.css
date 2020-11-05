@@ -1,49 +1,48 @@
-*  {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: rgb(88, 88, 88);
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+  background-color: rgb(88, 88, 88);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container_clock {
-    position: relative;
-    margin: auto;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    background-image: url(clock.png) ;
-    background-size: cover;
+  position: relative;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-image: url(clock.png);
+  background-size: cover;
 }
 
 .needle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform-origin: bottom;
-    border-radius: 2px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: bottom;
+  border-radius: 2px;
 }
 
 .hr {
-    width: 6px;
-    height: 27%;
-    background-color: black;
+  width: 8px;
+  height: 27%;
+  background-color: black;
 }
 .min {
-    width: 4px;
-    height: 37%;
-    background-color: white;
+  width: 4px;
+  height: 37%;
+  background-color: white;
 }
 
 .sec {
-    width: 1px;
-    height: 45%;
-    background-color: red;
+  width: 1px;
+  height: 45%;
+  background-color: red;
 }
